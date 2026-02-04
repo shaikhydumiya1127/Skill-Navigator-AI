@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCVET Skill Navigator AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<style>
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      color-adjust: exact;
+      background-color: white !important;
+    }
+    header, footer, .no-print {
+      display: none !important;
+    }
+    main {
+      padding: 0 !important;
+      margin: 0 !important;
+      display: block !important;
+      min-height: auto !important;
+    }
+    .print-container {
+       box-shadow: none !important;
+       border: none !important;
+       padding: 0 !important;
+       width: 100% !important;
+       max-width: 100% !important;
+       margin: 0 auto;
+    }
+    /* Styles to make timeline print better */
+    .timeline-container-print-vertical {
+        padding: 0 !important;
+    }
+    .timeline-container-print-vertical .timeline-item { 
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin-bottom: 2rem !important;
+        page-break-inside: avoid;
+    }
+    .timeline-container-print-vertical .timeline-item > .order-1.w-5\/12,
+    .timeline-container-print-vertical .timeline-item > .z-20 {
+        display: none !important;
+    }
+    .timeline-container-print-vertical .timeline-item > .order-1.bg-white {
+        width: 100% !important;
+    }
+    .timeline-container-print-vertical > .absolute {
+        display: none !important; /* Hide the vertical line */
+    }
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

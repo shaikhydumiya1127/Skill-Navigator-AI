@@ -1,0 +1,5 @@
+{
+  "name": "Skill Navigator AI",
+  "description": "An AI-enabled personalized guidance system that recommends vocational training pathways aligned with a learner's background, aspirations, and real-time labor market demands, based on the National Skills Qualifications Framework (NSQF).",
+  "requestFramePermissions": []
+}
