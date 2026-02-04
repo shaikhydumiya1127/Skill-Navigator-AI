@@ -19,7 +19,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1eCzR_KXhSmezBYLbIl7N4G
 3. Run the app:
    `npm run dev`
 
-   🔴 Problem Statement (Clear & Professional)
+
+🔴 Problem Statement (Clear & Professional)
 
 In today’s rapidly evolving job market, students and early-stage professionals often struggle to identify the right career path due to a lack of personalized guidance. While abundant information about careers and skills is available online, it is highly scattered, generic, and overwhelming. Most learners are unable to clearly map their interests, existing skills, and career goals to suitable learning paths and future opportunities.
 
